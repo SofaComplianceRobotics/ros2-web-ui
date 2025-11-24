@@ -28,14 +28,14 @@ source /opt/ros/jazzy/setup.bash
 ```
 
 #### 2. Run the rosbridge server
-You can run one of hte following commands to run the rosbridge server:
+You can run one of the following commands to run the rosbridge server:
 
 ```bash
 ros2 launch ./back/rosbridge_secure_websocket_launch.xml
 ```
 or
 ```bash
-ros2 launch ./backros_server_launch.py
+ros2 launch ./back/ros_server_launch.py
 ```
 
 These commands launch a rosbridge server that listens on port 9090 with SSL support. 
